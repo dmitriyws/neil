@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="row-wrapper">
+                <div class="nav row-container">
+                    <div class="mobile-menu">
+                        <input type="checkbox" id="overlay-input" />
+                        <label for="overlay-input" id="overlay-button"><span></span></label>
+                        <div id="overlay">
+                            <ul>
+                                <li class="logo"><a href="#"></a></li>
+                                <li><a href="#">Menu Item 1</a></li>
+                                <li><a href="#">Menu Item 2</a></li>
+                                <li><a href="#">Menu Item 3</a></li>
+                                <li><a href="#">Menu Item 4</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="menu row-container">
+                        <li class="logo"><a href="#"></a></li>
+                        <li><a href="#">Menu Item 1</a></li>
+                        <li><a href="#">Menu Item 2</a></li>
+                        <li><a href="#">Menu Item 3</a></li>
+                        <li><a href="#">Menu Item 4</a></li>
+                    </ul>
+                    <div class="login">LOG IN / SIGN UP</div>
+                </div>
+            </div>
+            <div class="row-wrapper range">
+                <div class="controls row-container">
+                    <div class="group">
+                        <input id="length"
+                               type="text"
+                               onkeyup="this.value = onInput(this.value)"
+                               required="required">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Length</label>
+                    </div>
+                    <div class="group">
+                        <input id="limit"
+                               type="text"
+                               onkeyup="this.value = onInput(this.value)"
+                               required="required">
+                        <span class="highlight"></span>
+                        <span class="bar"></span>
+                        <label>Limit</label>
+                    </div>
+                    <button id="startButton" class="btn">Start</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div id="progress"></div>
+            <div id="output" class="tiles"></div>
+        </div>
+
+        <div class="footer">
+            <div class="row-wrapper">
+                <div class="columns">
+                    <div class="column column-container">
+                        <div class="title">Menu 1</div>
+                        <ul class="list column-container">
+                            <li><a href="#">Menu Item 1</a></li>
+                            <li><a href="#">Menu Item 2</a></li>
+                            <li><a href="#">Menu Item 3</a></li>
+                            <li><a href="#">Menu Item 4</a></li>
+                        </ul>
+                    </div>
+                    <div class="column column-container">
+                        <div class="title">Menu 2</div>
+                        <ul class="list column-container">
+                            <li><a href="#">Menu Item 1</a></li>
+                            <li><a href="#">Menu Item 2</a></li>
+                        </ul>
+                    </div>
+                    <div class="column column-container">
+                        <div class="title">Contacts</div>
+                        <ul class="list column-container">
+                            <li><a href="#">Phone</a></li>
+                            <li><a href="#">Email</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="copyright">
+                    ©&nbsp;<b>Lev Tolstoy</b>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
