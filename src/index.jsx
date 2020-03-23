@@ -70,6 +70,7 @@ class Pool {
     };
 
     queue(arr, fnMapper, limit) {
+        limit = Number(limit);
         const _self = this;
         async function doWork(iterator) {
             for (let [index, item] of iterator) {
